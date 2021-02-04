@@ -1,0 +1,9 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="USE_PROXY_PAC" value="true" />
+    <option name="PROXY_HOST" value="wwwproxygaia.dillinger.de" />
+    <option name="PROXY_PORT" value="3128" />
+    <option name="USE_PAC_URL" value="true" />
+    <option name="PAC_URL" value="http://www1.dillinger.de/proxynews.pac" />
+  </component>
+</application>

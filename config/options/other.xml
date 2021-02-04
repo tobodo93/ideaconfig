@@ -1,0 +1,170 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="EduSettings">
+    <option name="lastTimeChecked" value="1596544219947" />
+    <option name="shownCourseIds">
+      <set />
+    </option>
+    <option name="myShouldUseJavaFx" value="true" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Segoe Print" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1WWDd4BJNpGZCgOLvMAK7CqTMEC">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nQXHCfq93ulATKt5Fp8r2BvjNH">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1ns5UH0pB0dXzOWfIptXrXHBoGN">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1ns9l9oSK9RD8eMVwLJa40igJQY">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nsEiuSuYA9jDuomJT2nlVbMLvi">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nsGxRpdJ2sS060Mr9rnzM2Q5cY">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1nsI3bbgfGcEvJ8nZy5v5blgEqe">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1o0Sp7Azu1UzTETjJK8rFxMtvq2">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1o0T6vXZMdzGISNoU8j9ivH3eOn">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.60882074" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="DBE.Default.Dialect" value="GenericSQL" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="Edu.CourseCreator.Enabled" value="true" />
+    <property name="Educational.conflictingPluginsDisabled" value="true" />
+    <property name="Educational.recentCoursesFilled" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="INSPECTION_FILTER_HISTORY" value="data source" />
+    <property name="InstalledPluginsSearchHistory" value="certif&#10;cert&#10;ce&#10;plugi&#10;plugin" />
+    <property name="MarketplacePluginsSearchHistory" value="test&#10;gradl&#10;gradle" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="RegistryRecentKeys" value="actionSystem.force.alt.gr" />
+    <property name="SettingsSearchHistory" value="certif&#10;plugin&#10;proxy&#10;font&#10;Maven" />
+    <property name="TrendingPluginsSearchHistory" value="power mode" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-203.6682.168-f58d0361f3675ea0e056dfb5907e2b08249092e27eff69bf8698d5977f823c5f" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="com.teamscale.ide.intellij:plugin_enabled" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt3.191" value="16" />
+    <property name="evlsprt3.192" value="18" />
+    <property name="evlsprt3.201" value="13" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/torpedoanmeldungIT-lab1.13.1&#10;C:/Users/di39258/torpedoanmeldungIT-lab&#10;C:/Users/di39258/rechargenerzeugungtrunk&#10;C:/Users/di39258/rechargeerzeugungTrunk&#10;C:/Users/di39258/rechargenerzeugungTrunk&#10;C:/Users/di39258/rechargeErzeugung&#10;C:/SEUIDE/software/DH_SPEC-1.0.1/SSH-Zertifikat/shsservices-root-ca.cer&#10;C:/seu-software-packer&#10;C:/TeamscaleTest&#10;C:/SEUIDE/software/TortoiseSVN-1.9.7/bin/svn.exe&#10;C:/SEUIDE/software/maven3-3.0.4&#10;C:/SEUIDE/software&#10;C:/SEUIDE/software/maven-2.2.1&#10;C:/SEUIDE/codebase&#10;C:/SEUIDE/software/aspectj-1.9/lib/aspectjtools.jar" />
+    <property name="file.gist.reindex.count" value="2918" />
+    <property name="fileTypeChangedCounter" value="26" />
+    <property name="ide.updates.previous.build.number" value="IU-203.6682.168" />
+    <property name="installed.kotlin.plugin.version" value="203-1.4.10-release-IJ6682.9" />
+    <property name="kotlin-gradle-user-dirs" value="C:\Users\di39258\.gradle" />
+    <property name="last_opened_file_path" value="C:/SEUIDE/software/DH_SPEC-1.0.1/SSH-Zertifikat/shsservices-root-ca.cer" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1611910473652" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="sonarlint_rule_filter" value="field" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.1.3" />
+  </component>
+  <component name="SpellCheckPlugin.SpellCheckConfiguration">
+    <dictionary selected="true">
+      <option name="name" value="English" />
+      <option name="dictionaryFile" value="C:\Users\di39216\.IdeaConfig\config\plugins\SpellCheckPlugin\dictionaries\en" />
+      <option name="phoneticFile" value="C:\Users\di39216\.IdeaConfig\config\plugins\SpellCheckPlugin\dictionaries\en\phonet.en" />
+      <option name="memoryDictionary" value="false" />
+    </dictionary>
+    <dictionary>
+      <option name="name" value="English (in-memory)" />
+      <option name="dictionaryFile" value="C:\Users\di39216\.IdeaConfig\config\plugins\SpellCheckPlugin\dictionaries\en_memory\english.0" />
+      <option name="phoneticFile" value="C:\Users\di39216\.IdeaConfig\config\plugins\SpellCheckPlugin\dictionaries\en_memory\phonet.en" />
+      <option name="memoryDictionary" value="true" />
+    </dictionary>
+    <config name="EDIT_SWAP" value="90" />
+    <config name="SPELL_IGNOREUPPERCASE" value="true" />
+    <config name="EDIT_CASE" value="10" />
+    <config name="EDIT_SUB" value="100" />
+    <config name="SPELL_IGNOREMIXEDCASE" value="false" />
+    <config name="SPELL_IGNOREDIGITWORDS" value="true" />
+    <config name="SPELL_IGNORESENTENCECAPTILIZATION" value="true" />
+    <config name="EDIT_DEL1" value="95" />
+    <config name="SPELL_IGNOREINTERNETADDRESS" value="true" />
+    <config name="EDIT_DEL2" value="95" />
+    <config name="SPELL_CACHE_DICTIONARY" value="true" />
+    <config name="SPELL_IGNOREMULTIPLEWORDS" value="false" />
+    <config name="SPELL_THRESHOLD" value="140" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://phoenix2-svn/m76" />
+        <option value="svn://dhbre/repos/TI-Hochofen" />
+        <option value="https://phoenix2-svn/alm" />
+        <option value="https://phoenix2-svn/ea" />
+        <option value="https://phoenix2-svn/modelle" />
+        <option value="https://phoenix2-svn/stahlwerkleitsystem" />
+        <option value="https://phoenix2-svn/roheisenkanal" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://phoenix2-svn/m76" />
+        <option value="svn://dhbre/repos/TI-Hochofen" />
+        <option value="https://phoenix2-svn/alm" />
+        <option value="https://phoenix2-svn/ea" />
+        <option value="https://phoenix2-svn/modelle" />
+        <option value="https://phoenix2-svn/stahlwerkleitsystem" />
+        <option value="https://phoenix2-svn/roheisenkanal" />
+      </list>
+    </option>
+    <option name="mySvnCommandLine" value="C:\SEUIDE\software\TortoiseSVN-1.9.7\bin\svn.exe" />
+  </component>
+</application>

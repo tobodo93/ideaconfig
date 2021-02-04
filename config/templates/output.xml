@@ -1,0 +1,20 @@
+<templateSet group="output">
+  <template name="dhl" value="private static final DHLogger LOG = DHLogger.getLogger($CLASS_NAME$.class);" description="DHLogger" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dhld" value="LOG.debug(&quot;$METHOD_NAME$($METHOD_PARAMETERS$)&quot;, $METHOD_PARAMETERS$);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_PARAMETERS" expression="methodParameters()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tostr" value="@Override&#10;public String toString()&#10;{&#10;    return ReflectionToStringBuilder.toString(this, ToStringStyle.SHORT_PREFIX_STYLE);&#10;}" description="toString()" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

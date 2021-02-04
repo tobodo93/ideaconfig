@@ -1,0 +1,17 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://lin455:9000" />
+          <token>dfccdf9bdfccdf9cdf9ddfcbdf92df99df9edf9edfcfdf9ddfcbdf9fdf9fdfccdf9cdfcbdfc9df9ddfcfdf99df9ddfcedf9bdfcbdf9cdf9edf9bdfcedfc9df98df98df9adf9ddfcedfc9df9ddfcedfcf</token>
+          <option name="name" value="DH_Sonar" />
+          <organizationKey>default-organization</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
+    <rules>
+      <Rule active="false" key="squid:S3008" />
+    </rules>
+  </component>
+</application>

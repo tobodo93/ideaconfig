@@ -1,0 +1,156 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AjcSettings">
+        <option name="ajcPath" value="C:/SEUIDE/software/aspectj-1.9/lib/aspectjtools.jar" />
+        <option name="delegateToJavac" value="true" />
+      </component>
+      <component name="CompilerConfiguration">
+        <option name="DEFAULT_COMPILER" value="ajc" />
+        <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
+      </component>
+      <component name="CompilerWorkspaceConfiguration">
+        <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+      </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="GradleLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="C:/SEUBUILD" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" value="Default" />
+        <option name="USE_PROJECT_PROFILE" value="false" />
+        <version value="1.0" />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="localRepository" value="C:\SEUIDE\codebase\mavenRepository" />
+            <option name="userSettingsFile" value="C:\SEUIDE\software\DH_SPEC-1.0.1\Settings_xml\settings.xml" />
+          </MavenGeneralSettings>
+        </option>
+      </component>
+      <component name="MavenRunner">
+        <option name="vmOptions" value="-Xms512m -Xmx2048m -XX:MaxPermSize=512m" />
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="di39216" />
+        <dictionary name="di39249" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>Java</id>
+              </State>
+              <State>
+                <id>Manifest</id>
+              </State>
+              <State>
+                <id>Serialization issuesJava</id>
+              </State>
+              <State>
+                <id>Spelling</id>
+              </State>
+              <State>
+                <id>Threading issuesJava</id>
+              </State>
+              <State>
+                <id>XML</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>SpellCheckingInspection</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="11" project-jdk-type="JavaSDK" />
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="C:/SEUIDE/codebase" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.proportion" value="0.15" />
+        <property name="project.structure.side.proportion" value="0.2" />
+        <property name="settings.editor.selected.configurable" value="http.certificates" />
+      </component>
+      <component name="RunDashboard">
+        <option name="ruleStates">
+          <list>
+            <RuleState>
+              <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+            </RuleState>
+            <RuleState>
+              <option name="name" value="StatusDashboardGroupingRule" />
+            </RuleState>
+          </list>
+        </option>
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="JUnit" factoryName="JUnit">
+          <extension name="coverage" sample_coverage="false" />
+          <option name="MAIN_CLASS_NAME" value="" />
+          <option name="METHOD_NAME" value="" />
+          <option name="TEST_OBJECT" value="class" />
+          <option name="PARAMETERS" value="" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+      </component>
+      <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="2" Folder0="C:\SEUIDE\software\DH_SPEC-1.0.1\SpellCheckDic" Folder1="C:\SEUIDE\software\DH_SPEC-1.0.1\SpellCheckDic" CustomDictionaries="2" CustomDictionary0="C:\SEUIDE\software\DH_SPEC-1.0.1\SpellCheckDic\english.dic" CustomDictionary1="C:\SEUIDE\software\DH_SPEC-1.0.1\SpellCheckDic\german.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+      <component name="SvnConfiguration">
+        <configuration>C:\Users\di39216\AppData\Roaming\Subversion</configuration>
+        <option name="runUnderTerminal" value="true" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>1.7</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

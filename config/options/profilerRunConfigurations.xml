@@ -1,0 +1,8 @@
+<application>
+  <component name="ProfilerRunConfigurations">
+    <profilerRunConfigurations />
+    <knownConfigurationTypes>
+      <id>JFRSimpleConfiguration</id>
+    </knownConfigurationTypes>
+  </component>
+</application>

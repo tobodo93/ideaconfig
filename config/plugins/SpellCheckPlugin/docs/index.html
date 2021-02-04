@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Richard Osbaldeston - Spelling Checker Plugin</title>
+<base href="http://www.osbald.co.uk/java/spellcheckplugin/" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Keywords" content="" />
+<meta http-equiv="Description" content="" />
+<meta http-equiv="author" content="Richard Osbaldeston" />
+<link rel="stylesheet" type="text/css" href="../../osbald2004_green_1.css" title="Default" media="screen, projection" />
+<link rel="alternate stylesheet" type="text/css" href="../../osbald2004_blue_1.css" title="Blue 1" media="screen, projection" />
+<link rel="alternate stylesheet" type="text/css" href="../../osbald2004_blue_2.css" title="Blue 2" media="screen, projection" />
+<link rel="alternate stylesheet" type="text/css" href="../../osbald2004_green_2.css" title="Acid Green" media="screen, projection" />
+</head>
+
+<body>
+<div id="header">
+<a href="/"><img src="" border="0" alt="osbald.co.uk"/></a>
+</div>
+<div id="subheader">
+<span id="pageBreadcrumb"><a href="../../">Home</a> / <a href="../">Java</a> / <a href=".">Spelling Checker Plugin</a></span>
+</div>
+
+<div id="sidebar">
+<p>Richard Osbaldeston's Homepage</p>
+
+<div id="navigation">
+<h3>Navigation</h3>
+<ul>
+  <li><a href="http://www.osbald.co.uk/">Home</a></li>
+</ul>
+<ul>
+  <li><a href="http://www.jroller.com/page/osbald/">Blog</a></li>
+</ul>
+<ul>
+  <li><a href="../">Java Projects</a>
+  <ul>
+    <li><a href="../htmlGrabber/index.html">Html Grabber</a></li>
+    <li><a href="../discCatalogue/index.html">Disc Catalogue</a></li>
+    <li><a href="../webstartServices/index.html">Web Start Services</a></li>
+    <li><a href="../spellcheckplugin/">SpellCheck Plugin</a></li>
+    <li><a href="../bmp/index.html">BMP Library</a></li>
+    <li><a href="../mousewheel/index.html">JMouseWheel</a></li>
+    <li><a href="../redirector/index.html">Redirector</a></li>
+    <li><a href="../wordsearch/index.html">Word Search Applets</a></li>
+  </ul>
+  <ul>
+    <li><a href="../../links_programming.html">Java Bookmarks</a></li>
+  </ul>
+  </li>
+</ul>
+<ul>
+  <li><a href="../../gallery/index.html">Photos</a></li>
+</ul>
+<ul>
+  <li><a href="../../links.html">Bookmarks</a></li>
+</ul>
+<ul>
+  <li><a href="../../about/index.html">About</a></li>
+</ul>
+</div>
+</div>
+
+  <div id="content">
+    <h1 id="pageTitle">Spelling Checker Plugin</h1>
+
+    <p>Spelling Checker Plugin for IntelliJ IDEA based around the
+    Open Source <a href="http://sourceforge.net/projects/jazzy">Jazzy Spell Check
+    API</a>.</p>
+
+    <p>Making the plugin and the sources available here as I've
+    been having problems with the official IntelliJ plugins Wiki
+    site which hosts the 
+	<a href="http://www.intellij.org/twiki/bin/view/Main/SpellCheck">SpellCheck
+    Plugin Homepage</a>. I Can't tell wether IntelliJ intend to
+    retire this site in favour of the new IntelliJ IDEA 4.0
+    <a href="http://plugins.intellij.net/">Plugin Repository</a>
+    which exposes a basic web interface to the builtin plugin
+    manager.</p>
+
+    <h2>Screenshots</h2>
+
+    <p><a href="screenshot01.png"><img src="screenshot01.png"
+    width="180" height="130" hspace="16" border="0" alt="screenshot"/></a> 
+	<a href="screenshot02.png"><img src="screenshot02.png" width="200"
+    height="130" hspace="16" border="0" alt="screenshot"/></a></p>
+
+    <h2>Installation</h2><img src="install_dirs.png" border="0"
+    align="right" hspace="20" vspace="10" alt="installation directories" />
+
+    <p>Easiest route for anybody using IDEA 4.0 is to use the
+    builtin plugin manager (file -&gt; settings -&gt; plugins) and
+    install or update the plugin from there. Othwerwise follow
+    these basic instructions to download install/compile the plugin
+    yourself from one of the following distributions:</p>
+
+    <p><strong>IntelliJ IDEA 4.5 version</strong></p>
+
+    <p><img src="../images/zipfile.gif" width="16" height="16"
+    hspace="2" border="0" alt="" />
+	<a href="SpellCheckPlugin07.zip">SpellCheckPlugin.zip</a>
+    (binary)</p>
+
+    <p><img src="../images/zipfile.gif" width="16" height="16"
+    hspace="2" border="0" alt="" />
+	<a href="SpellCheckPlugin07-src.zip">SpellCheckPlugin-src.zip</a></p>
+
+	<p><strong>IntelliJ IDEA 4.0.x version</strong></p>
+
+    <p><img src="../images/zipfile.gif" width="16" height="16"
+    hspace="2" border="0" alt="" />
+	<a href="SpellCheckPlugin07.zip">SpellCheckPlugin07.zip</a>
+    (binary)</p>
+
+    <p><img src="../images/zipfile.gif" width="16" height="16"
+    hspace="2" border="0" alt="" />
+	<a href="SpellCheckPlugin07-src.zip">SpellCheckPlugin07-src.zip</a></p>
+
+    <p><strong>IntelliJ IDEA 3.x version only</strong></p>
+
+    <p><img src="../images/zipfile.gif" width="16" height="16"
+    hspace="2" border="0" alt="" />
+	<a href="SpellCheckPlugin04b.zip">SpellCheckPlugin04b.zip</a> (untested
+    backport)</p>
+
+    <ol>
+      <li>Unpack the SpellCheckPlugin.zip directly into your IDEA
+      Plugins directory, so that the lib jars and dictionaries are
+      unpacked into a SpellCheckPlugin subdirectory under your
+      %IDEA_HOME%/plugins.</li>
+
+      <li>Restart IntelliJ Idea to active the plugin</li>
+    </ol>
+
+    <h2>Usage</h2>
+
+    <p>The plugin configuration options are available from an icon
+    installed into the IDE Settings panel. This allows you to
+    select some of Jazzys syntax checking options and the location
+    (and type) of the dictionary files. Basically the disc based
+    dictionaries are generally slower during use, whereas the
+    memory based ones are quicker - but use a significantly amount
+    of memory to load the dictionary file each time its needed. You
+    also get the option to cache the memory dictionary between uses
+    for the quickest possible operation.</p>
+
+    <p>To active the spell checker you've basically got two options
+    "Spell Check Selection" and "Smart Check".</p>
+
+    <p>Spell Check Selection is available from the Code Menu or
+    from the default keyboard shortcut (Ctrl + Shift + K). This
+    checks the active selection or just the current word when no
+    selection is available.</p>
+
+    <p>Alternatively Smart Check (Ctrl + Shift + D) uses the power
+    of IntelliJ to check only the comments, javadoc and string
+    literals within the currently active document. I.E. Checks the
+    possibly embarrassing (when misspelt) user-facing content.
+    Currently this is limited to Java files only (not xml, jsp
+    etc..).</p>
+
+    <p>NB: Some of the options exposed by the Jazzy engine
+    currently don't work - things like multiple word warnings etc..
+    haven't been implemented (or just buggy) hopefully work will
+    continue on improving the engine. Also note that Jazzy can be
+    downloaded and recompiled directly from their CVS, and with
+    luck replacing the jazzy-core.jar in the plugins lib folder
+    with the new copy should enable users to keep to-to-date
+    themselves.</p>
+
+    <h2>Acknowledgements</h2>
+
+    <p>Many thanks to Chris Miller for committing a host of changes
+    to the Jazzy source tree, and the help in understanding the
+    newer dictionary formats.</p>
+
+    <h2>Changes</h2>
+
+    <p><strong>0.7 (28 March 2004)</strong> * Updated &amp; recompiled
+    latest Jazzy engine from CVS (migrated own Jazzy modifications
+    in favour of standard jazzy-core.jar which should be easier to
+    keep updated) * Fixed the suggest button which would often
+    refuse to replace selected words * Added support for user
+    dictionary (enables add word) * Better integration with Idea
+    4.0; plugin directory found via PathManager, better looking
+    icon etc.. * Misc Bug fixes</p>
+
+    <p><strong>0.5 (24 March 2004)</strong> Initial working version
+    for Idea 4.0 -- no major changes to the engine or functionality
+    yet (Although I notice a new improved version of Jazzy is
+    available; which I'd like to see fully integrated).</p>
+
+    <p><strong>0.4 - 0.4a (10 July 2003)</strong> This is the last
+    version that will support Idea 3.0. Sorry the src was missing
+    from the archive here (bad ant script) - this is superceded by
+    0.5 now.. if anyone needs a copy of the source let me
+    know).</p>
+
+    <p><strong>0.2 (23 June 2003)</strong> Newer version uses latest
+    CVS version of Jazzy (LOTS!) of changes, plus Chris Millers
+    contributions. Major difference in this version is the newer
+    Jazzy engine and the addition of a configuration pane in the
+    IDEA options dialog.</p>
+
+    <p><strong>0.1 (02 June 2003)</strong> Intial version using
+    latest availiable Jazzy 0.4 binary distribution.</p>
+
+    <h2>Bugs</h2>
+
+    <p>Best to email me a copy of the bug report so it doesn't take
+    3 months before I am aware of any problems next time. Seesh!</p>
+
+	<p>  ..other <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;%63%68a%72&#100;&#64;&#111;%73&#98;&#97;%6cd.%63%6f&#46;u&#107;">feedback</a> welcome.</p>
+
+  </div>
+
+</body>
+</html>

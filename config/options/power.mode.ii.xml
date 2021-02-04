@@ -1,0 +1,14 @@
+<application>
+  <component name="PowerModeII">
+    <option name="customBamImageFolder" value="C:\SEUBUILD\bin\pm" />
+    <option name="customBamImages" value="true" />
+    <option name="customFlameImageFolder" value="C:\WINDOWS\system32" />
+    <option name="flamesEnabled" value="false" />
+    <option name="hotkeyHeatup" value="false" />
+    <option name="isCaretAction" value="false" />
+    <option name="isPowerIndicatorEnabled" value="false" />
+    <option name="shakeEnabled" value="false" />
+    <option name="soundsFolder" value="C:\WINDOWS\system32" />
+    <option name="sparksEnabled" value="false" />
+  </component>
+</application>

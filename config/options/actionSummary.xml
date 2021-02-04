@@ -1,0 +1,52 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="90" l="1612422060318" />
+    </e>
+    <e n="EditorLeft">
+      <i c="414" l="1612167165880" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="1" l="1612172098315" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1612172965543" />
+    </e>
+    <e n="EditorRight">
+      <i c="362" l="1612167162428" />
+    </e>
+    <e n="FileChooser.Delete">
+      <i c="2" l="1612172132887" />
+    </e>
+    <e n="FileChooser.NewFolder">
+      <i c="9" l="1612422299970" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="2" l="1612167242144" />
+    </e>
+    <e n="Maven.RunBuild">
+      <i c="5" l="1612173146566" />
+    </e>
+    <e n="OpenFile">
+      <i c="2" l="1612422025066" />
+    </e>
+    <e n="ProjectFromVersionControl">
+      <i c="9" l="1612422254906" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1611912784128" />
+    </e>
+    <e n="Subversion.Resolve">
+      <i c="1" l="1612166515326" />
+    </e>
+    <e n="Vcs.UpdateProject">
+      <i c="1" l="1612167368399" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1611912887369" />
+    </e>
+    <e n="org.jetbrains.idea.svn.integrate.ToBeMergedDialog$MySelectAll">
+      <i c="3" l="1612168181594" />
+    </e>
+  </component>
+</application>

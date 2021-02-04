@@ -1,0 +1,3 @@
+
+com.teamscale.ide.intellij
+org.jetbrains.android

@@ -1,0 +1,13 @@
+<application>
+  <component name="SetterTemplates">
+    <option name="defaultTempalteName" value="DHBuilder" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="DHBuilder" />
+          <option name="template" value="#set($paramName = $helper.getParamName($field, $project))&#10;public ##&#10;#if($field.modifierStatic)&#10;    static void ##&#10;#else&#10;    $classname ##&#10;#end&#10;$StringUtil.decapitalize(&#10;    $StringUtil.sanitizeJavaIdentifier(&#10;        $helper.getPropertyName($field, $project)&#10;    )&#10;)($field.type $paramName) {&#10;#if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;        this.##&#10;    #else&#10;        $classname.##&#10;    #end&#10;#end&#10;$field.name = $paramName;&#10;#if(!$field.modifierStatic)&#10;    return this;&#10;#end&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="filter" value="Log.info(&quot;verarbeite: {0}&quot;, $VAR$);&#10;$TYPE1$ result;&#10;$END$&#10;LOG.info(&quot;Resultat: {0}&quot;, result);&#10;return result;" description="Filter-Methodenrumpf" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
